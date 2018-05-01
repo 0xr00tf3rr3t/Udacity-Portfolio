@@ -1,0 +1,56 @@
+nav,
+a,
+button {
+  min-height: 48px;
+  min-width: 48px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  /* text-align: left; */
+}
+
+.logo {
+  /* text-align: left;
+  display: inline-block;
+  margin-left: 1%; */
+}
+
+.hearder-logo {
+  /* display: inline-block; */
+}
+.header-subtitle{
+ float:right;
+  margin-top:0;
+  
+}
+.header-title{
+  margin-bottom:0px;
+  text-transform:uppercase;
+}
+.header-right{
+  margin-left:auto;
+}
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  width: 75%;
+}
+.header-inner{
+  border-bottom: 5px solid rgb(145, 147, 148);
+
+}
+.flex-container{
+  display:flex;
+  flex-direction: row nowrap;
+}
+.color-palettle{
+  flex-direction: column;
+}
