@@ -141,7 +141,7 @@ body {
   }
   .color-container {
     margin: 10px;
-    width: calc((100%-30px)/3);
+    width: calc((100% - 30px)/3);
   }
   .header-title {
     font-size: 3vh;
