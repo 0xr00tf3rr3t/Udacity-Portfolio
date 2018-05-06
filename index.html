@@ -11,40 +11,40 @@
 </head>
 
 <body>
-  <div class="flex-container">
+  <main class="flex-container main-container">
     <div class="color-palette">
       <div class="color-container">
-        <div class="color-square">
+        <div class="color-square grey">
         </div>
         <div class="color-hex">
 
         </div>
-        <p>#1234</p>
-      </div>
-  
-      <div class="color-container">
-        <div class="color-square">
-        </div>
-        <div class="color-hex">
-
-        </div>
-        <p>#1234</p>
+        <p>#DAEEFB</p>
       </div>
 
-      <div class="color-container">
-        <div class="color-square">
+      <div class="color-container ">
+        <div class="color-square blue">
         </div>
         <div class="color-hex">
 
         </div>
-        <p>#1234</p>
+        <p>#5EC1FC</p>
+      </div>
+
+      <div class="color-container">
+        <div class="color-square black">
+        </div>
+        <div class="color-hex ">
+
+        </div>
+        <p>#919394</p>
+      </div>
     </div>
-  </div>
     <div class="container">
       <header class="header ">
         <div class="header-inner flex-container">
           <div class="logo">
-            <img class="header-logo" src="img/placeholder150x100.png" alt="logo">
+            <img class="header-logo" src="img/udacity.png" alt="logo">
           </div>
           <div class="header-right">
             <h1 class="header-title">
@@ -55,31 +55,35 @@
         </div>
       </header>
       <div class="about-me flex-container">
-        <img class="headshot" src="img/headshot.jpg" alt="A Picture of me">
+        <div class="picture">
+          <img class="headshot" src="img/headshot.jpg" alt="A Picture of me">
+        </div>
         <div class="description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, incidunt quidem. Voluptates, voluptatum quia? Sed reprehenderit,
-          ratione, perspiciatis enim pariatur ad nostrum voluptates consectetur, ipsam ullam eos! Ab, quam enim! Lorem ipsum
-          dolor, sit amet consectetur adipisicing elit. Sit quam debitis, vero quod porro quidem illo tempora aliquam, odio
-          facilis illum numquam voluptas consectetur earum explicabo architecto dignissimos distinctio atque. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Ratione suscipit odio vel unde. Aut, culpa, voluptas unde iure doloremque
-          laborum ut tempora numquam sapiente quidem praesentium quisquam molestias fugiat nobis!
+          Hello! My name is Michael Valentin and I'm currently enrolled at the Udacity Front End Nanodegree, how I got here? Well it's
+          easy I won a Google Schoolarship with "Grow with google" Hopefully I'll be able to do every single acomplishment
+          on this course in time and be able to apply all my knowledge in future projects. I've already started learning
+          some things but since I got cut off from internet and electricity (I live in PR) I wasn't able to keep learning
+          for a while and although my web develipment skill are a bit rusty I hope to reach my goal as fast as possible.
         </div>
 
       </div>
       <section class="featured-work">
         <h2 class="fw-title"> Featured Work</h2>
-        <div class="flex-container">
+        <div class=" project-area flex-container">
           <div class="project-container">
             <div class="project-img">
 
             </div>
             <div class="project-link">
-              <img class="project-img" src="http://i.imgur.com/Pdlnd2Fl.png" alt="Photo showing the Robin William Tribute">
-              <a href=" http://mvrcoding.com/">Robin Williams's Tribute</a>
-              <p>A small tribute made in honor of Robin Williams for the freecodecamp online course. I think that Robin Williams
+              <img class="project-img" src="img/robin-william.png" alt="Photo showing the Robin William Tribute">
+              <div class="project-name">
+                <a href=" http://mvrcoding.com/">Robin Williams's Tribute</a>
+              </div>
+              <p class="project-description">A small tribute made in honor of Robin Williams for the freecodecamp online course. I think that Robin Williams
                 was a really amazing actor and as a challenge I had to do a tribute in honor of someone so I decided to do
                 it about him. helped me build some motivation and helped me understand the basic concepts of working with
-                HTML.</p>
+                HTML.
+              </p>
             </div>
 
           </div>
@@ -88,9 +92,11 @@
 
             </div>
             <div class="project-link ">
-              <img class="project-img " src="http://i.imgur.com/TfRZNKi.png " alt="Photo showin the quote Machine ">
-              <a href="http://mvrcoding.com/Projects/quoteMachine/ ">Quote Machine</a>
-              <p>First time using Javascript,Jquery, JSON and an external API. The objective of this project was to make a quote
+              <img class="project-img " src="img/quote-machine.png " alt="Photo showin the quote Machine ">
+              <div class="project-name">
+                <a href="http://mvrcoding.com/Projects/quoteMachine/ ">Quote Machine</a>
+              </div>
+              <p class="project-description">First time using Javascript,Jquery, JSON and an external API. The objective of this project was to make a quote
                 machine that would call an API from another server/website.</p>
             </div>
 
@@ -100,9 +106,11 @@
 
             </div>
             <div class="project-link ">
-              <img class="project-img " src="http://i.imgur.com/UcP8js4.png " alt="Photo showing my other profile ">
-              <a href="http://mvrcoding.com/ ">My other profile</a>
-              <p>My own porfolio on my website. This one uses bootstrap instead of flexboxes.</p>
+              <img class="project-img " src="img/porfolio.png " alt="Photo showing my other profile ">
+              <div class="project-name">
+                <a href="http://mvrcoding.com/ ">My other profile</a>
+              </div>
+              <p class="project-description">My own porfolio on my website. This one uses bootstrap instead of flexboxes.</p>
             </div>
 
           </div>
@@ -111,9 +119,11 @@
 
             </div>
             <div class="project-link ">
-              <img class="project-img " src="https://i.imgur.com/gUNeefP.png " alt="Photo showing weather app ">
-              <a href="# ">Weather App</a>
-              <p>
+              <img class="project-img " src="img/weather-app.png" alt="Photo showing weather app ">
+              <div class="project-name">
+                <a href="# ">Weather App</a>
+              </div>
+              <p class="project-description">
                 <span class="warning ">Currently Broken</span> This one delivers de weather based on location or given places. Second time using
                 Javascript,Jquery, JSON and an external API. It got broken when switching host. </p>
             </div>
@@ -122,7 +132,7 @@
         </div>
       </section>
     </div>
-  </div>
+  </main>
 
 </body>
 
